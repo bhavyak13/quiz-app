@@ -1,3 +1,5 @@
+## Quiz-App
+
 # Run locally
 To run the project on your computer:
 1. Download code 
