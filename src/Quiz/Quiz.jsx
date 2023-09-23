@@ -29,7 +29,7 @@ function Quiz() {
 
     function submitQuiz() {
         localStorage.setItem('questions', JSON.stringify(questions));
-        navigate("/summary");
+        navigate("/quiz-app/summary");
     }
 
     function toogleResponse(e) {

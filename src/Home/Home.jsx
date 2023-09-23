@@ -29,7 +29,7 @@ function Home() {
             const json = await response.json();
             let res = json.results;
             await basicSetup(res);
-            navigate("/quiz");
+            navigate("/quiz-app/quiz");
         } catch (error) {
             console.log("error", error);
         }

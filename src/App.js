@@ -11,19 +11,19 @@ import Summary from './Summary/Summary';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/quiz-app',
     element: <TempLay />,
     children: [
       {
-        path: '/',
+        path: '/quiz-app',
         element: <Home />,
       },
       {
-        path: '/quiz',
+        path: '/quiz-app/quiz',
         element: <Quiz />,
       },
       {
-        path: '/summary',
+        path: '/quiz-app/summary',
         element: <Summary />,
       },
     ],
