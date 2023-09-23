@@ -54,7 +54,7 @@ function Quiz() {
     }
     else {
         return (
-            <div style={{ height: '85vh' }} >
+            <div style={{ height: '100vh' }} >
                 <Timer
                     deadline={deadline}
                     submitQuiz={submitQuiz}
